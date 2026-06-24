@@ -1,0 +1,20 @@
+main{
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.map{
+    text-align: center;
+}
+
+.map iframe{
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}

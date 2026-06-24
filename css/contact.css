@@ -1,0 +1,64 @@
+main{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f4f6f9;
+}
+
+.contact-card{
+    width: 600px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-card h2{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.contact-card p{
+    text-align: center;
+    color: #555;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+   
+}
+
+button:hover{
+    background-color: #357abd;
+}
+
+h3{
+    margin-top: 30px;
+    text-align: center;
+    color: #2c3e50;
+}

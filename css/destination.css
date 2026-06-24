@@ -1,0 +1,103 @@
+/* MAIN */
+main {
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Sections destinations */
+.destination,
+.destinations,
+section {
+    background: #ffffff;
+    margin-bottom: 40px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+.destination h1,
+.destination h2,
+.destination h3,
+.destination h4,
+.destination h5,
+.destination h6,
+.destinations h2,
+section h2 {
+    text-align: center;
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+/* Paragraphes */
+.destination p,
+.destinations p,
+section p {
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Toutes les galeries */
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image21,
+.photo,
+.galerie {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+/* Masquer la barre de défilement */
+.image1::-webkit-scrollbar,
+.image2::-webkit-scrollbar,
+.image3::-webkit-scrollbar,
+.image4::-webkit-scrollbar,
+.image5::-webkit-scrollbar,
+.image6::-webkit-scrollbar,
+.image21::-webkit-scrollbar,
+.photo::-webkit-scrollbar,
+.galerie::-webkit-scrollbar {
+    display: none;
+}
+
+/* Images */
+.image1 img,
+.image2 img,
+.image3 img,
+.image4 img,
+.image5 img,
+.image6 img,
+.image21 img,
+.photo img,
+.galerie img {
+    width: 250px !important;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.image1 img:hover,
+.image2 img:hover,
+.image3 img:hover,
+.image4 img:hover,
+.image5 img:hover,
+.image6 img:hover,
+.image21 img:hover,
+.photo img:hover,
+.galerie img:hover {
+    transform: scale(1.05);
+}

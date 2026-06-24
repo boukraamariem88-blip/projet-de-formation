@@ -1,0 +1,54 @@
+main{
+    width: 70%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+fieldset{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 0 10px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    
+}
+
+button:hover{
+    background-color: #357abd;
+}
